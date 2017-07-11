@@ -50,9 +50,9 @@ class Controller_Message extends Controller		//контроллер страницы сообщений
 		{
 			$params['access_token'] = $tokenInfo['access_token'];
 			$userInfo = json_decode(file_get_contents('https://www.googleapis.com/oauth2/v1/userinfo' . '?' . urldecode(http_build_query($params))), true);
-			if (isset($userInfo['id'])) 
+			if (!isset($userInfo['id'])) 
 			{
-				$result = true;
+				header( "Location: /?con=Message&code=$_GET[code]") ;
 			}
 		}
 		$_SESSION['access_token'] = $tokenInfo['access_token'];
