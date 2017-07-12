@@ -1,2 +1,4 @@
-1. Задать хост, имя пользователя, пароль и имя базы данных в файле application\core\model.php
-2. Файл импорта базы данных p40347_lightit.sql лежит в корневой папке.
+1. Р—Р°РґР°С‚СЊ С…РѕСЃС‚, РёРјСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ, РїР°СЂРѕР»СЊ Рё РёРјСЏ Р±Р°Р·С‹ РґР°РЅРЅС‹С… РІ С„Р°Р№Р»Рµ application\core\model.php
+2. Р¤Р°Р№Р» РёРјРїРѕСЂС‚Р° Р±Р°Р·С‹ РґР°РЅРЅС‹С… p40347_lightit.sql Р»РµР¶РёС‚ РІ РєРѕСЂРЅРµРІРѕР№ РїР°РїРєРµ.
+3. Р—Р°СЂРµРіРёСЃС‚СЂРёСЂРѕРІР°С‚СЊ Google Identity and Access Management (IAM) API РЅР° СЃР°Р№С‚Рµ https://console.developers.google.com/
+3. Р—Р°РґР°С‚СЊ client_id, client_secret, redurect_uli РІ С„Р°Р№Р»Рµ application\core\model.php РґР»СЏ Р°РІС‚РѕСЂРёР·Р°С†РёРё С‡РµСЂРµР· google.com
